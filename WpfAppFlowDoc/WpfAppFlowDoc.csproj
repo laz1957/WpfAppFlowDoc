@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="img\close-up-hands-typing-laptop.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="img\close-up-hands-typing-laptop.jpg" />
+  </ItemGroup>
+
+</Project>
