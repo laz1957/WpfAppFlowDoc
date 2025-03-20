@@ -14,7 +14,7 @@
         </Grid.RowDefinitions>
         <FlowDocumentScrollViewer  Grid.Row="1"  
                                    ZoomIncrement="5" IsToolBarVisible="True"
-                                   MinZoom="50" MaxZoom="1000" Zoom="100 " >
+                                   MinZoom="10" MaxZoom="1000" Zoom="100 " >
             <FlowDocument  ColumnWidth="50">
                 <Paragraph>Флагманы 2015</Paragraph>
                 <Table BorderThickness="1" BorderBrush="Black">
